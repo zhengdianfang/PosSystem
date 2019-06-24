@@ -1,0 +1,22 @@
+{
+  "name": "com.zhengdianfang.pos_system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhengdianfang/PosSystem.git"
+  },
+  "author": "Dianfang Zheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhengdianfang/PosSystem/issues"
+  },
+  "homepage": "https://github.com/zhengdianfang/PosSystem#readme",
+  "devDependencies": {
+    "jest": "^24.8.0"
+  }
+}
