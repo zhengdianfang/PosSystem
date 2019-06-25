@@ -48,14 +48,6 @@ it('should print correct text when give receiptItems', () => {
 
     const result = print(mockRecpeiptItems);
 
-    expect(result).toBe(`
-        Receipts:
-        ----------------------------------------------
-        Coca Cola            3      9
-        Diet Coke            2      8
-        Pepsi-Cola           3      5
-        ----------------------------------------------
-        Price: 22 
-    `);
+    expect(result).toBe("Receipts:\n----------------------------------------------\nCoca Cola    3    9\nDiet Coke    2    8\nPepsi-Cola    1    5\n----------------------------------------------\nPrice: 22");
 
 });
